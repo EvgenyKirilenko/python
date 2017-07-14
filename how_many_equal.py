@@ -5,7 +5,7 @@ b=int(input())
 c=int(input())
 if a==b and a==c:
     print (3)
-elif b!=a and b!=c:
+elif b!=a and b!=c and a!=c:
     print (0)
 else:
     print(2)
